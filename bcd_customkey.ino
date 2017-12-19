@@ -5,7 +5,7 @@ String key03 = "cmd";
 String key04 = "powershell";
 String key05 = "notepad";
 String key06 = "steam://rungameid/570";
-String key07 = "calc";
+String key07 = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 String key08 = youtube + "https://youtu.be/dQw4w9WgXcQ?t=43s";
 String key09 = youtube + "https://youtu.be/Yt-KMPvgKPo?t=1m30s";
 String key10 = youtube + "https://youtu.be/RN4ttn6aBjg?t=5s";
@@ -82,7 +82,7 @@ void loop() {
      break; 
   case 7: 
      Keyboard.press(KEY_LEFT_GUI);
-     Keyboard.press('r');
+     Keyboard.press(' ');
      delay(100);
      Keyboard.releaseAll();
      Keyboard.println(key07);
